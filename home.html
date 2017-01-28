@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<!-- ScrollingScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="javascript/scrolling.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Light Theme</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Header -->
+  <header class="nav-down">
+    <h4 class="logo">Get Things Done</h4>
+    <ul>
+      <li><a href="#home">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#news">Shop</a></li>
+    </ul>
+  </header>
+  <script>
+	  console.log($('header').outerHeight() + 'px');
+  </script>
+
+  <!-- Stats Gallery Section -->
+  <section class="content">
+	  <section class="intro" style="position: relative">
+		<div class="column">
+		  <h3>Blah</h3>
+		  <img src="images/profile.png" alt="" class="profile"> </div>
+		<div class="column">
+		  <p>Blah Blah </p>
+		  <p>Blah Blah</p>
+		</div>
+	  </section>
+  <script>
+  		$('.content').css({'margin-top':$('header').outerHeight() + $('ul').outerHeight() - 2+ 'px'});
+  </script>
+  <div class="gallery">
+    <div class="thumbnail" style = "width:46%"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">Really</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">BLAH BLAH</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="thumbnail" style = "width:46%"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    <div class="thumbnail"> <a href="#"><img src="images/bkg_06.jpg" alt="" width="2000" class="cards"/></a>
+      <h4>TITLE</h4>
+      <p class="tag">HTML, CSS, JS, WordPress</p>
+      <p class="text_column">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+  </section>
+  <!-- Footer Section -->
+  <!--
+  <footer id="contact">
+    <p class="hero_header">GET IN TOUCH WITH ME</p>
+    <div class="button">EMAIL ME </div>
+  </footer>
+  -->
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2017 - <strong>Get Things Done</strong></div>
+</div>
+
+<!-- Main Container Ends -->
+</body>
+</html>
